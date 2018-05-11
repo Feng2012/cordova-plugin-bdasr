@@ -20,12 +20,12 @@
 
         <framework src="libc++.tbd" weak="true"/>
         <framework src="libz.1.2.5.tbd" weak="true"/>
-        <framework src="AudioToolbox" weak="true"/>
-        <framework src="AVFoundation" weak="true"/>
-        <framework src="CFNetwork" weak="true"/>
-        <framework src="CoreLocation" weak="true"/>
-        <framework src="CoreTelephony" weak="true"/>
-        <framework src="SystemConfiguration" weak="true"/>
+        <framework src="AudioToolbox.framework" weak="true"/>
+        <framework src="AVFoundation.framework" weak="true"/>
+        <framework src="CFNetwork.framework" weak="true"/>
+        <framework src="CoreLocation.framework" weak="true"/>
+        <framework src="CoreTelephony.framework" weak="true"/>
+        <framework src="SystemConfiguration.framework" weak="true"/>
 
         <header-file src="src/ios/BDSClientHeaders/ASR/BDSASRDefines.h"/>
         <header-file src="src/ios/BDSClientHeaders/ASR/BDSASRParameters.h"/>
